@@ -1,0 +1,8 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_notes
+server-->browser: HTML-code
+browser-->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+server-->browser: [{ content: "test12", date: "2019-07-20T20:10:27.240Z" }]
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes
+server-->browser: HTML-code
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/new_notes
+server-->browser: HTML-code
